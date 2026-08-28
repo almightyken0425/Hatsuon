@@ -1,7 +1,7 @@
 # Hatsuon 產品規則
 
 - 本 repo 是 Hatsuon 的 Product git
-- 產品為日文發音練習 App
+- 產品為日文假名讀音對應熟練 App
 - 技術基礎為 React Native Expo
 
 ## 多層 git 結構
@@ -19,8 +19,7 @@
 - `no1_product_initiation/`
   - 承載產品定義
 - `no2_product_planning/`
-  - 目前為規劃層 placeholder
-  - 未來承載需求與 Product Map
+  - 承載需求與 Product Map
 - `no3_product_specs/`
   - 承載獨立 Module Spec git
 - `no4_product_designs/`
@@ -37,8 +36,8 @@
 - Spec 文件改動先使用 `spec_writer`
 - 跨層改動使用同名 feat branch
 - 配對 commit 使用相同 subject 與 body
-- 上游需求與 Product Map 目前未建
-- 不得假設上游對應已存在
+- 上游需求與 Product Map 已建立
+- 變更前需確認上游對應仍成立
 
 ---
 
